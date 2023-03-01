@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+
+  background-image: url("https://i.giphy.com/media/TxVVB6PfWMjE4/200.webp");
+
+  color: yellow;
+  text-align: center;
+}
+
+#container {
+    width: 350px;
+    height: 250px;
+    border: 3px solid black;
+    background-image: url("https://preply.com/wp-content/uploads/2020/05/694px-Star_Wars_Logo.svg_.png");
+    
+}
+
+
+.logo {
+
+  background: url("https://i.dlpng.com/static/png/253278_thumb.png") center center no-repeat;
+  width: 400px;
+  height: 300px;
+  margin:  0 auto;
+  margin-top: 20px;
+}
+
+
+.infoContainer{
+  border: 3px solid yellow;
+  border-radius: 15px;
+  width: 600px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+
+#button{
+	margin-top: 20px;
+	border: 3px solid yellow;
+	border-radius: 10px;
+	width: 180px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#name{
+	color: white;
+	font-size: 30px;
+	
+}
+
+#height{
+	color: white;
+	font-size: 20px;
+}
+
+#gender{
+	color: white;
+	font-size: 20px;
+}
+
+#birthYear{
+	color: white;
+	font-size: 20px;
+}
+
+#homeWorld{
+	color: white;
+	font-size: 20px;
+}
+
+
+p{
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+}
