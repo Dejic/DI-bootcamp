@@ -1,13 +1,31 @@
-const fs = require("fs");
+const fs = require('fs');
+//new content
+const newContent = "House Salad"
 
-// fs.readFile(`menu.text`, `utf-8`, (err,data)=>{
-// if(err){
-//     console.log(err)
-//     return
-// }
-// console.log(data)    
+// //writeFile method
+// fs.writeFile('menu.txt', newContent, function (err) {
+//     if (err) {
+//         console.error(err)
+//         return
+//     }
 // });
 
-// console.log("-----------Restaurant Menu-----------------");
+// //readFile method
+// fs.readFile('menu.txt', 'utf-8', function (err, data) {
+//     if (err) {
+//         console.error(err)
+//         return
+//     }
 
-FileSystem.writefile(`text.txt`)
+//     console.log(data)
+// });
+
+// console.log("-----Restaurant Menu---------", '\n',);
+
+// FileSystem.writefile(`text.txt`, `This is my first write file with fs! How exiting!!!`, (err) => {
+//     if (err) {
+//         console.log(err);
+//     }else{
+//         console.log("We did it, It worked fantastically!!")
+//     }
+// });
