@@ -7,13 +7,16 @@ class Example1 extends React.Component{
     render(){
         return(
             <div>
-             {data.Experiences.map((Experience)=>{
-                return(
-                    <div>
-                        
-                    <div/>
-                )
-             })}
+                {data.Experiences.map((experience)=>{
+                    return(
+                        <div>
+                            <img src={experience.logo}/>
+                            <h3>{experience.roles[0].title}</h3>
+                            <h3>{experience.roles[0].startDate},{experience.roles[0].location}</h3>
+                            <h3>{experience.roles[0].description}</h3>
+                        </div>
+                    )
+                })}
             </div>
          );
         }
